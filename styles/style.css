@@ -1,0 +1,323 @@
+
+
+*{
+    list-style:none;
+    text-decoration: none;
+    margin: 0; 
+    color: white;
+    scroll-behavior: smooth;
+   
+
+}
+
+
+
+header{
+    /* MUDANÇA */
+    /* height: 100vh; */
+    overflow: hidden;
+    
+}
+header ul{
+    width: 50%;
+    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu{
+    font-size: 28px;
+    display: flex;
+    background: #A8CE59;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    
+}
+
+
+
+
+#efeito{
+    background-color: black;
+}
+#efeito img{
+        width: 113%;
+        opacity: 0.5;
+}
+
+
+
+
+
+
+
+#banner{
+position: absolute;
+color: white;
+top: 400px;
+font-size: 40px;
+/* MUDANÇA*/
+padding-left: 3em;
+
+}   
+.apresentacao{
+  /*  text-align: center;*/
+}
+
+.apresentacao a{
+    font-size: 20px;
+    border: 0;
+    background-color: #A8CE59;
+    border-radius: 21px;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 80%;
+}
+
+
+
+
+
+main{
+    width: 100%;
+    margin: auto;
+    margin-top: 10vh;
+
+}
+
+
+
+
+@keyframes pisca{
+    0% {color: white} /*0 segundos*/
+    50% {color: black;}/*2 segundos*/
+    100% {color:white;}/*4 segundos*/
+
+}
+
+#Sobremim h1{
+color: white;
+align-items: center;
+display: flex;
+justify-content: space-around;
+}
+#Sobremim div{
+    display: flex;
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 26%);
+    background-color: rgb(226, 223, 223);
+    height: 40vh;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+}
+#Sobremim h2{
+    color: black;
+    margin-top: 3px;
+
+}
+#Sobremim p{
+    color: black;
+    /*text-align: center;*/
+    /*line-height: 29px;*/
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+#Sobremim:hover{
+    box-shadow: 0 8px 40px 0 rgba(0,0,0,0.2); 
+    background-color: #93a769;  
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.minhaimg{
+    border-radius: 18px;
+    height: 100%;
+
+}
+
+
+
+
+
+
+
+#Projeto{
+    margin-top: 20vh;
+}
+
+#Projeto h1{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #A8CE59;
+    padding: 1%;
+}
+
+.row{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.card{
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+}
+.card:hover{
+
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card h2{
+    color: black;
+}
+.image{
+    height: 199px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.seguimage{
+    height: 199px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.terceimage{
+    height: 199px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bloco{
+    height: 200px;
+}
+
+.animacao{
+
+    animation-name: pisca;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    color: black;
+}
+
+.green {
+    border-left: 3px solid #A8CE59;
+}
+.blue {
+    border-left: 3px solid rgb(16, 16, 72);
+}
+.red {
+    border-left: 3px solid rgb(158, 26, 26);
+}
+
+
+
+
+
+#Academico{
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+    
+}
+
+#Academico h1{
+   color: black; 
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   background-color: white;
+   padding: 1%;
+}
+table {
+    width:100%;
+    margin:0 auto;
+    border-spacing:0;
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+   background-color: #A8CE59;
+   box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+}
+table:hover{
+    transform: translateY(-7px);
+    cursor: pointer;
+}
+
+tr, td, th {
+    border:thin solid black;
+    border-bottom:none;
+    border-right:none;
+    padding:5px;
+    color: white;
+}
+
+td {
+    text-align: center;
+}
+
+
+
+
+#Experiencia{
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+#Experiencia h1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #A8CE59;
+    padding: 1%;
+    margin-bottom: 30px;
+}
+#Experiencia div{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 20vh;
+
+}
+#Experiencia h2{
+    color: black;
+    /*text-align: center;*/
+}
+#Experiencia p{
+   background-color: white;
+    color: black;
+    /*text-align: center;*/
+    font-size: 20px;
+    margin-top: 10px;
+}
+#Experiencia b{
+    color: black;
+}
+#Experiencia .experience{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+
+
+
+
+.linha{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #A8CE59;
+    padding: 1%;
+
+}
+.linha p{
+    color: black;
+}
+
+
+
